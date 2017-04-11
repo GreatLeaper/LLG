@@ -1,33 +1,45 @@
 body {
     overflow-x: hidden;
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
     color: #999;
 }
 .text-primary {
-    color: #8a0707;
+    color: #000;
 }
 p {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.75;
 }
 p.large {
-    font-size: 20px;
+    font-size: 28px;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
 }
 a {
-    color: #8a0707;
+    color: #283a90;
 }
 a:hover, a:focus, a:active, a.active {
-    color: #8a0707;
+    color: #283a90;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*text-transform: uppercase;*/
-    font-weight: 700;
+    /*font-weight: 700;*/
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+  border-top: 12px solid #000;
 }
 .img-centered {
     margin: 0 auto;
@@ -40,11 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-primary {
     color: #fff;
-    background-color: #8a0707;
-    border-color: #8a0707;
-    font-family: "Arkitech Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #283a90;
+    border-color: #283a90;
+    font-family: "handwriting-draft_free-version", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     color: #fff;
@@ -55,20 +66,20 @@ h1, h2, h3, h4, h5, h6 {
     background-image: none;
 }
 .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
-    background-color: #8a0707;
-    border-color: #8a0707;
+    background-color: #283a90;
+    border-color: #283a90;
 }
 .btn-primary .badge {
-    color: #8a0707;
+    color: #283a90;
     background-color: #fff;
 }
 .btn-xl {
     color: #fff;
-    background-color: #8a0707;
-    border-color: #8a0707;
-    font-family: "Arkitech Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #283a90;
+    border-color: #283a90;
+    font-family: "handwriting-draft_free-version", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
@@ -81,43 +92,47 @@ h1, h2, h3, h4, h5, h6 {
     background-image: none;
 }
 .btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
-    background-color: #8a0707;
-    border-color: #8a0707;
+    background-color: #283a90;
+    border-color: #283a90;
 }
 .btn-xl .badge {
-    color: #8a0707;
+    color: #283a90;
     background-color: #fff;
 }
 .navbar-default {
-    background-color: #8a0707;
+    background-color: #283a90;
     border-color: transparent;
 }
 .navbar-default .navbar-brand {
-    color: #8a0707;
-    font-family: "Arkitech Medium", "Helvetica Neue", Helvetica, Arial, cursive;
+    color: #283a90;
+    font-family: "handwriting-draft_free-version", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
     color: #fff;
 }
 .navbar-brand img {
-  max-width: 45%;
-  margin-top: -35px;
+  display: none;
+}
+.navbar-default.navbar-shrink .navbar-brand img {
+  max-width: 38%;
+  margin-top: -14px;
+  display: block;
 }
 .navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, .02);
 }
 .navbar-default .navbar-toggle {
-    background-color: #8a0707;
-    border-color: #8a0707;
+    background-color: #283a90;
+    border-color: #283a90;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #8a0707;
+    background-color: #283a90;
 }
 .navbar-default .nav li a {
-    font-family: "Arkitech Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "handwriting-draft_free-version", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -130,11 +145,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #8a0707;
+    background-color: #283a90;
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #8a0707;
+    color: #283a90;
     background-color: #fff;
 }
 
@@ -151,8 +165,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width:768px) {
     .navbar-default {
-    background-color: transparent;
-    padding: 25px 0;
+    background:-webkit-gradient( linear, left top, right bottom, color-stop(0.25, #00083e), color-stop(1, #283a90) );
+    background:-moz-linear-gradient( center top, #00083e 55%, #283a90 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00083e', endColorstr='#283a90');
+    padding: 5px 0;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -168,14 +184,24 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-      background-color: #8a0707;
+      background: #fff;
+      background-image: url(../img/graphpaper.png);
+      background-repeat: repeat;
       padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
       font-size: 1.5em;
   }
-  .navbar-default .nav li a {
+  .navbar-default.navbar-shrink .nav li a {
       color: #000;
+  }
+  .navbar-default .nav li a {
+      color: #fff;
+  }
+  .navbar-default.navbar-shrink .nav li a:hover, .navbar-default .nav li a:focus {
+      color: #fff;
+      outline: 0;
+      text-decoration: underline;
   }
   .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
       color: #000;
@@ -185,17 +211,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url(../img/matrix.gif);
-    background-repeat: no-repeat;
-    /*background-attachment: scroll;*/
-    /*background-position: center center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*-o-background-size: cover;*/
+    background-image: url(../img/graphpaper.png);
+    background-repeat: repeat;
     text-align: center;
     color: #000;
-    background-position: 1px 1px;
+    -webkit-mask-image: -webkit-gradient(linear, left 75%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
 header .intro-text {
@@ -210,7 +230,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 100;
     font-size: 24px;
@@ -223,14 +243,14 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
 }
 header .intro-text .intro-lead-in {
-    font-family: "Arkitech Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "handwriting-draft_free-version", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 100;
     font-size: 32px;
@@ -241,20 +261,31 @@ header .intro-text .intro-heading {
 
 section {
     padding: 100px 0;
+    background-image: url(../img/graph-gray.png), url(../img/blue-bkg.png);
+    color: #bbb;
+    /*-webkit-mask-image: -webkit-gradient(linear, left 96%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+    /*background:-webkit-gradient( linear, left top, right bottom, color-stop(0.25, #00083e), color-stop(1, #283a90) );*/
 }
+
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
-    font-family: "Arkitech Medium"
+    font-family: "handwriting-draft_free-version";
+    color: #fff;
 }
+section h3 {
+  color: #ddd;
+}
+
 section h3.section-subheading {
-    font-size: 24px;
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px;
+    color: #ddd;
 }
 
 .services-heading {
@@ -276,12 +307,14 @@ section h3.section-subheading {
     text-decoration: none;
 }
 #services .services-link .services-hover {
-    background: rgba(138, 7, 7, .85);
+    background: rgba(49, 80, 144, .85);
     position: absolute;
     width: 100%;
     height: 54%;
     top: 180px;
     opacity: 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
     transition: all ease .5s;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -317,7 +350,7 @@ section h3.section-subheading {
     position: absolute;
     content: "";
     width: 4px;
-    background-color: #8a0707;
+    background-color: #283a90;
     left: 40px;
     margin-left: -1.5px;
 }
@@ -362,10 +395,10 @@ section h3.section-subheading {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #8a0707;
+    background-color: #283a90;
     color: #fff;
     border-radius: 100%;
-    border: 7px solid #8a0707;
+    border: 7px solid #283a90;
     text-align: center;
 }
 .timeline>li .timeline-image h4 {
@@ -479,7 +512,7 @@ section h3.section-subheading {
 }
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #8a0707;
+    border: 7px solid #283a90;
 }
 .team-member h4 {
     margin-top: 25px;
@@ -509,7 +542,7 @@ section#contact table.social-buttons td {
 }
 section#contact table.social-buttons .button a {
     display: block;
-    background-color: #8a0707;
+    background-color: #283a90;
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -540,31 +573,31 @@ section#contact .form-group textarea.form-control {
     height: 236px;
 }
 section#contact .form-control:focus {
-    border-color: #8a0707;
+    border-color: #283a90;
     box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     color: #bbb;
 }
 section#contact :-moz-placeholder {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     color: #bbb;
 }
 section#contact ::-moz-placeholder {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     color: #bbb;
 }
 section#contact :-ms-input-placeholder {
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     color: #bbb;
 }
 section#contact .text-danger {
@@ -576,14 +609,14 @@ footer {
 }
 footer span.copyright {
     line-height: 40px;
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
 }
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Y14.5M-2009", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
 }
@@ -605,7 +638,7 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-    background-color: #8a0707;
+    background-color: #283a90;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
     outline: 0;
@@ -613,11 +646,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 ::-moz-selection {
     text-shadow: none;
-    background: #8a0707;
+    background: #283a90;
 }
 ::selection {
     text-shadow: none;
-    background: #8a0707;
+    background: #283a90;
 }
 img::selection {
     background: 0 0;
@@ -626,7 +659,7 @@ img::-moz-selection {
     background: 0 0;
 }
 body {
-    webkit-tap-highlight-color: #8a0707;
+    webkit-tap-highlight-color: #283a90;
 }
 
 /*Modal Specifics*/
@@ -695,17 +728,17 @@ body {
 }
 @media (min-width: 480px) {
   .rwd-table th {
-    background: #8a0707;
+    background: #283a90;
     color: #fff;
   }
   .rwd-table td, .rwd-table th {
     padding-left: 1em !important;
   }
   .rwd-table td:before {
-    color: #8a0707;
+    color: #283a90;
     background: #fff;
   }
 }
 .rwd-table td:before {
-  color: #8a0707;
+  color: #283a90;
 }

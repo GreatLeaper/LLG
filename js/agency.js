@@ -4,14 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-$(document).ready(function(){
-  // Dorky interval to make the matrix image appear in different places
-  setInterval(function () {
-      newPos = Math.floor((Math.random() * window.innerWidth)-10) + "px " + Math.floor((Math.random() * window.innerHeight)-30) + "px"
-      $('header').css("background-position", newPos)
-  }, 12080);
-});
-
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
